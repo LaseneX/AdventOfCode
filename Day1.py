@@ -1,10 +1,10 @@
 import sys
 
 # Read the arguement
-D = open(sys.argv[1]).read().strip()
+A = open(sys.argv[1]).read().strip()
 ans = 0
 
-for line in D.split('\n'):
+for line in A.split('\n'):
     digits = []
     for c in line:
         if c.isdigit():
