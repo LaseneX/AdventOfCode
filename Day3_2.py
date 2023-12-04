@@ -1,5 +1,4 @@
 import sys
-import re
 from collections import defaultdict
 
 # Read the file given as an argument to the script
